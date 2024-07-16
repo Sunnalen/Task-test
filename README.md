@@ -1,24 +1,31 @@
-# test-task
+# Введение
 
-## Project setup
-```
+На что стоит обратить внимание:
+
+Бизнес логика - старался минимизровать работу с вёрсткой и сосредоточиться исключительно на деталях бизнес логики/архитектуры.
+
+## Шаги реализации
+
+Предварительным этапов до разработки было планирование:
+Я выделил следующие этапы разработки:
+
+- Планирование
+- Установка зависимостей, подготовка приложения к дальнешей работе
+- Выполнение задач
+- Небольшой рефакторинг по итогу декомпозиции / покрыд код комментариями
+
+## Project Setup
+
 npm install
-```
 
-### Compiles and hot-reloads for development
-```
+### Compile and Hot-Reload for Development
+
 npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+### Type-Check, Compile and Minify for Production
 
-### Lints and fixes files
-```
+npm run build-only
+
+### Lint with [ESLint](https://eslint.org/)
+
 npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
